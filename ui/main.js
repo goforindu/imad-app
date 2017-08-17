@@ -2,7 +2,7 @@ console.log('Loaded!');
 //counter code
 var counter=0;
 var button=document.getElementById("counter");
-button.onClick=function(){
+button.onclick=function(){
     //make a request to a counter endpoint
     //get the response and store in a variable
     //render it in a correct span
