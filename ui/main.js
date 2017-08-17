@@ -26,6 +26,14 @@ var nameInput=document.getElementById("name");
 var name=nameInput.value;
 var submit=document.getElementById("submit_btn");
 submit.onclick=function(){
+    
     //make a request to server send name as data
     //get the reponse as alist of name submit and render it
+    var names=["name1","name2","name3","name4"];
+    var list="";
+    for(i=0;i<names.length;i++){
+        list="<li>"+name_list[i]+"</li>";
+    }
+    var ul=document.getelementById("name_list");
+    ul.innerHTML=list;
 }
