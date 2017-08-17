@@ -27,7 +27,7 @@ app.get('/ui/madi.png', function (req, res) {
 
 //name list
 var name_array=[];
-app.get('/submit_name/:name',function(req,res){
+app.get('/submit-name/:name',function(req,res){
     //get the name
     var name=req.params.name;
     
