@@ -27,9 +27,9 @@ app.get('/ui/madi.png', function (req, res) {
 
 //name list
 var name_array=[];
-app.get('/submit-name/:name',function(req,res){
+app.get('/submit-name',function(req,res){
     //get the name
-    var name=req.params.name;
+    var name=req.query.name;
     
     //store in ana array
     name_array.push(name);
