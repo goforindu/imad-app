@@ -49,7 +49,7 @@ submit.onclick=function(){
     //get the response and store in a variable
     
     //make a request
-    request.open('GET',"http://goforindu.imad.hasura-app.io/submit-name?name="+name,true);
+    request.open('GET',"http://goforindu.imad.hasura-app.io/submit-name?name="+ name,true);
     request.send(null);
  
    
