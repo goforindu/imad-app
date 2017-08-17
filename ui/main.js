@@ -35,6 +35,7 @@ submit.onclick=function(){
             if(request.status===200){
                   //get the reponse as alist of name submit and render it
                 var names=request.responseText;
+                console.log(names);
                 names=JSON.parse(names);
                 var list="";
                 for(i=0;i<names.length;i++){
